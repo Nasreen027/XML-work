@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bio [
+   <!ELEMENT bio (student*, teachers*)>
+   <!ELEMENT student (name, age , qualification)>
+   <!ELEMENT teachers (name, age, qualification)>
+   <!ELEMENT name (#PCDATA)>    
+   <!ELEMENT age (#PCDATA)>
+   <!ELEMENT qualification (#PCDATA)>
+]>
+<bio>
+    <student>
+        <name>Ali</name>
+        <age>22</age>
+        <qualification>Inter</qualification>
+    </student>
+    <student>
+        <name>Hamza</name>
+        <age>22</age>
+        <qualification>Inter</qualification>
+    </student>
+    <student>
+        <name>Asim</name>
+        <age>22</age>
+        <qualification>Inter</qualification>
+    </student>
+    <teachers>
+        <name>Miss Kinza</name>
+        <age>23</age>
+        <qualification>MSC</qualification>
+    </teachers>
+</bio>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT aptech (faculty* , student*)>
+<!ELEMENT faculty (name, contact, email, salary)>
+<!ELEMENT student (name, contact, email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ATTLIST name profile CDATA #REQUIRED>
+<!ATTLIST name speciality CDATA #FIXED "Hard Worker">

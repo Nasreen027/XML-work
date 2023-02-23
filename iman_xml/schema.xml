@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.xsd" type="application/xml"?>
+<profile>
+    <EmployeName>Ali</EmployeName>
+    <age>22</age>
+    <email>ali12@gmail.com</email>
+</profile>

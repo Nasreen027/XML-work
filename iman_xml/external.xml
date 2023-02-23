@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aptech SYSTEM "external.dtd" [
+<!ENTITY company "ARTT">
+]>
+<aptech>
+    <faculty>
+        <name profile="Frontend Developer" speciality="Hard Worker">Ali &company;</name>
+        <contact>0354266665</contact>
+        <email>ali@email.com</email>
+        <salary>70000</salary>
+    </faculty>
+    <faculty>
+        <name profile="Web Designer" speciality="Hard Worker">Asim</name>
+        <contact>034354544</contact>
+        <email>asim@gmail.com</email>
+        <salary>70000</salary>
+    </faculty>
+    <student>
+        <name profile="Backend Developer" speciality="Hard Worker">Amir</name>
+        <contact>0345446346</contact>
+        <email>amir@gmail.com</email>
+    </student>
+    <student>
+        <name profile="Script Writter">Azhar</name>
+        <contact>03678789809</contact>
+        <email>azhar@gmail.com</email>
+    </student>
+</aptech>
